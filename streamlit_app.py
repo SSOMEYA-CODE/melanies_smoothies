@@ -48,7 +48,7 @@ if ingredients_list:
         st.success('Your Smoothie is ordered,'+name_on_order+'!', icon="✅")
 
 if ingredients_list:
-    ingredients_string = ''
+    ingredients_string = ' '
 
     for fruit_chosen in ingredients_list:
         ingredients_string += fruit_chosen + ''
